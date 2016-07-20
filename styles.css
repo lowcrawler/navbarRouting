@@ -1,3 +1,11 @@
+.hidden {
+	display: none;
+}
+
+.navDropDown {
+	color: #e11 !important;
+}
+
 /* Master Styles */
 h1 {
   color: #369;
@@ -57,6 +65,8 @@ nav a:hover {
 nav a.active {
   color: #039be5;
 }
+
+
 
 /* items class */
 .items {
