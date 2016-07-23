@@ -21,7 +21,7 @@ var Module1Component = (function () {
             selector: 'mod1',
             directives: [router_1.ROUTER_DIRECTIVES,
                 a_component_1.AComponent, b_component_1.BComponent, c_component_1.CComponent],
-            template: "<h2>Module1</h2>\n  \t\t\tMod1 Navigate:<nav>\n      <a [routerLink]=\"['a']\">A</a>\n      <a [routerLink]=\"['b']\">B</a>\n      <a [routerLink]=\"['c']\">C</a>\n    </nav>\n\t\t\t<br>--------module1 router outlet-------------<br>\n\t\t\t<router-outlet></router-outlet>"
+            template: "<h2>Module1</h2>\n  \t\t\tMod1 Navigate:<nav>\n      <a [routerLink]=\"['a']\" routerLinkActive=\"navDropDown\">A</a>\n      <a [routerLink]=\"['b']\" routerLinkActive=\"navDropDown\">B</a>\n      <a [routerLink]=\"['c']\" routerLinkActive=\"navDropDown\">C</a>\n    </nav>\n\t\t\t<br>--------module1 router outlet-------------<br>\n\t\t\t<router-outlet></router-outlet>"
         }), 
         __metadata('design:paramtypes', [])
     ], Module1Component);

@@ -10,9 +10,9 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 	  AComponent, BComponent, CComponent],
   template: `<h2>Module1</h2>
   			Mod1 Navigate:<nav>
-      <a [routerLink]="['a']">A</a>
-      <a [routerLink]="['b']">B</a>
-      <a [routerLink]="['c']">C</a>
+      <a [routerLink]="['a']" routerLinkActive="navDropDown">A</a>
+      <a [routerLink]="['b']" routerLinkActive="navDropDown">B</a>
+      <a [routerLink]="['c']" routerLinkActive="navDropDown">C</a>
     </nav>
 			<br>--------module1 router outlet-------------<br>
 			<router-outlet></router-outlet>`
